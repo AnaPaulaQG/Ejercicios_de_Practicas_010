@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tarjeta {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  gap: 1rem;
+}
+
+.tarjeta-imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4dd0e1;
+  display: block;
+  margin: 0 auto;
+  object-position: center top;
+}
+
+.tarjeta-nombre {
+  font-size: 2.2rem;
+  color: #4dd0e1;
+}
+
+.tarjeta-descripcion {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+.tarjeta-info p {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
